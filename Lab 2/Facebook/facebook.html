@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook</title>
+
+    <style>
+        body{
+            background-color: rgb(240,242,245);
+        }
+
+
+
+        #name{
+            font-weight: bolder;
+            font-family: "Tahoma";
+            color: #1877f2;
+            height: 30px;
+            font-size: 50px;
+        }
+        h3{
+            font-family: SansSerif, monospace;
+        }
+
+
+        #first-case{
+            font-size: 20px;
+            width: 450px;
+            position: absolute;
+            top: 200px;
+            left: 250px;
+        }
+
+        .log-in{
+            width: 396px;
+            height: 330px;
+            background-color: white;
+            border: solid 1px #dfe1e3;
+            border-radius: 10px;
+            /* Code shadow create in https://active-vision.ru/icon/box-shadow/*/
+            -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+            -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+            box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+            position: absolute;
+            top: 150px;
+            left: 770px;
+
+        }
+
+
+        #email , #password{
+            font-size: 15px;
+            width: 364px;
+            height: 52px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+
+            padding: 12px 20px; /*TEXT in this*/
+            margin: 15px 15px 0;
+            box-sizing: border-box;
+
+        }
+        #email:focus{
+            border: 3px solid rgb(27,116,228);
+        }
+        #password:focus{
+            border: 3px solid rgb(27,116,228);
+        }
+
+
+
+        #submit{
+            color: white;
+            font-size: 20px;
+            font-weight: bold ;
+            background-color: #1877f2;
+            border: none;
+            border-radius: 4px;
+            width: 364px;
+            height: 50px;
+            margin: 17px 15px 0;
+        }
+        #submit:hover{
+            background-color: #1250a6;
+            transition: 0.5s;
+        }
+        #forget{
+            margin: 12px 140px 0;
+        }
+        #forget a{
+            color: #1886f2;
+            text-decoration: none;
+
+        }
+        #forget a:hover {
+            text-decoration: underline;
+        }
+        #square{
+            margin: 12px 25px 0;
+            width: 350px;
+            height: 1px;
+            background: #dcdcdc;
+        }
+        #create{
+            color: white;
+            font-size: 16px;
+            font-weight: bold ;
+            background-color: rgb(66,183,42);
+            border: none;
+            border-radius: 4px;
+            width: 232px;
+            height: 50px;
+            margin: 15px 80px 0;
+        }
+        #create:hover{
+            background-color: rgb(54,164,32);
+            transition: 0.5s;
+        }
+
+
+        #create-new{
+            font-family: "Verdana";
+            font-size: 13.5px;
+            text-align: center;
+            position: absolute;
+            top: 510px;
+            left: 810px;
+            width: 400px;
+        }
+        #create-new a{
+            color: black;
+            text-decoration: none;
+        }
+        #create-new a:hover {
+            text-decoration: underline;
+        }
+
+
+
+        #footer {
+            width: 100%;
+            height: 175px;
+            clear: both;
+            float: left;
+            margin-top: 25px;
+            min-width: 100px;
+            background-color: white;
+            text-align: left;
+
+
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 710px;
+            bottom: 0;
+        }
+        #language {
+            width: 980px;
+            margin: 0px auto;
+            padding: 0px;
+            border-bottom: 1px solid #E6E6E6;
+            height: 30px;
+            line-height: 30px;
+            font-size: 12px;
+            color: #848484;
+            word-spacing: 10px;
+        }
+        #more-lan{
+            position: absolute;
+            top: 17px;
+            left: 980px;
+        }
+        #info-link {
+            width: 980px;
+            margin: 0px auto;
+            padding: 0px;
+            font-size: 12px;
+            color: #848484;
+        }
+        #info-link a {
+            color: #848484;
+            display: inline-block;
+            margin: 5px;
+            margin-left: 0px;
+            min-width: 80px;
+            text-decoration: none;
+        }
+        #info-link a:hover {
+            text-decoration: underline;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="first-case">
+    <h1 id="name"> facebook</h1>
+    <h3> Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</h3>
+    </div>
+
+    <figure class="log-in">
+    <div>
+    <input id="email" type="email" type="number" placeholder="Электронный адрес или номер телефона"/> <br>
+    <input id="password" type="password" placeholder="Пароль"><br>
+    </div>
+
+    <div>
+    <button id="submit" type="submit"> Вход</button><br>
+        <div id="forget">
+            <a href=" https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"> Забыли пароль?</a><br>
+        </div>
+        <div id="square"></div>
+    <button id="create"> Создать новый аккаунт</button><br>
+    </div>
+    </figure>
+
+    <div id="create-new">
+        <p> <a href="https://www.facebook.com/pages/create/?ref_type=registration_form"> <strong> Создать Страницу</strong></a>
+        знаменитости, музыкальной группы или компании.
+        </p>
+    </div>
+
+
+
+
+    <div id="footer">
+        <div id="language">
+        <p> Русский English (US) Türkçe Bahasa Indonesia 中文(简体) Қазақша Deutsch 한국어 Shqip Español Português (Brasil)
+            <a href="#"><img id="more-lan" src="more-facebook.png" width="30"></a>
+        </p>
+        </div>
+
+
+        <div id="info-link">
+            <a href="#">Регистрация</a><a href="#">Вход</a><a href="#">Messenger</a><a href="#">Facebook Lite</a><a href="#">Watch</a><a href="#">Места</a>
+            <a href="#">Игры</a><a href="#">Marketplace</a><a href="#">Meta Pay</a><a href="#">Oculus</a><a href="#">Portal</a><a href="#">Instagram</a>
+            <a href="">Bulletin</a><a href="">Благотворительные акции</a><a href="">Услуги</a><a href="">Центр информации о выборах</a>
+            <a href="">Политика конфиндециальности</a><a href="">Центр конфинденциальности</a><a href="">Группы</a>
+            <a href="">Информация</a><a href="">Создать рекламу</a><a href="">Создать страницу</a><a href="">Разработчикам</a><a href="">Вакансии</a>
+            <a href="">Файлы cookie</a><a href="">Рекламные предпочтения</a><a href="">Условия использования</a><a href="">Справка</a>
+            <a href="">Загрузка контактов и лица, не являющиеся пользователями</a>
+
+            <p> Meta © 2023</p>
+        </div>
+    </div>
+
+</body>
+</html>
