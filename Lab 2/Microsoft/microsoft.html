@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Microsoft - домашняя страница</title>
+
+    <style>
+        #first_case img{
+            position: absolute;
+            top: 25px;
+            left: 50px;
+        }
+        #first_case ul{
+            position: absolute;
+            top: 25px;
+            left: 180px;
+
+            margin: 0; /* Обнуляем значение отступов */
+            padding: 4px; /* Значение полей */
+            display: inline;
+        }
+        #first_case li{
+            font-size: 12px;
+            font-family: Arial;
+            letter-spacing: 1.5px;
+
+            display: inline; /* Отображать как строчный элемент */
+            margin-right: 25px; /* Отступ слева */
+            padding: 3px; /* Поля вокруг текста */
+        }
+        #first_case a{
+            text-decoration: none;
+            color: black;
+        }
+        #first_case a:hover {
+            border-bottom: 3px black solid;
+        }
+
+        #second_case ul{
+            position: absolute;
+            top: 25px;
+            left: 1000px;
+
+            margin: 0; /* Обнуляем значение отступов */
+            padding: 4px; /* Значение полей */
+            display: inline;
+        }
+        #second_case li{
+            font-size: 12px;
+            font-family: Arial;
+            letter-spacing: 1.5px;
+
+            display: inline; /* Отображать как строчный элемент */
+            margin-right: 25px; /* Отступ слева */
+            padding: 3px; /* Поля вокруг текста */
+        }
+        #find{
+            position: absolute;
+            top: 8px;
+            left: 255px;
+        }
+        #people{
+            position: absolute;
+            top: -3px;
+            left: 350px;
+        }
+        #second_case a{
+            text-decoration: none;
+            color: black;
+        }
+        #second_case a:hover {
+            border-bottom: 3px black solid;
+        }
+
+        #main{
+            position: absolute;
+            top: 170px;
+            left: 130px;
+        }
+        #main h2{
+            font-family: Arial;
+            color: white;
+            font-size: 35px;
+            width: 450px;
+            line-height: 42px;
+        }
+        #main p{
+            font-family: Arial;
+            color: white;
+            font-size: 16px;
+            width: 450px;
+            line-height: 22px;
+        }
+        button{
+            background-color: rgb(0,103,184);
+            border: none;
+            border-radius: 2px;
+            width: 260px;
+            height: 40px;
+        }
+        #main a{
+            font-weight: bold;
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+
+        }
+        #main a:active{
+            border: white dotted;
+            padding: 6px 17px;
+        }
+        #background{
+            position: absolute;
+            top: 80px;
+            left: 0;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .box{
+            position: absolute;
+            top: 650px;
+            left: 100px;
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+        .box p{
+            width: 300px;
+            font-family: "Times New Roman";
+        }
+        .box h1{
+            font-family: Arial;
+            font-size: 25px;
+        }
+        .box a{
+            text-decoration: none;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 14px;
+            color: #0067b8;
+
+            display: inline; /* Отображать как строчный элемент */
+            margin-right: 25px; /* Отступ слева */
+        }
+        .box a:hover {
+            text-decoration: underline;
+        }
+
+        #footer{
+            position: absolute;
+            top: 1100px;
+            left: 0px;
+            width: 100%;
+            height: 10px;
+            background: white;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="first_case">
+    <img src="logo.png" width="100">
+
+    <ul>
+        <li><a href="#">Microsoft 365</a></li>
+        <li><a href="#">Office</a></li>
+        <li><a href="#">Windows</a></li>
+        <li><a href="#">Поддержка</a></li>
+    </ul>
+    </div>
+
+    <div id="second_case">
+    <ul>
+        <li><a href="#">Продукты Майкрософт ></a></li>
+        <li><a href="#">Поиск <img id="find" src="find.png" width="15"></a></li>
+        <li><a href="#">Войти <img id="people" src="people.png" width="40"></a></li>
+    </ul>
+    </div>
+
+    <img id="background" src="background.jpeg">
+    <div id="main">
+            <h2>Разработано для жизни — сегодня и в будущем</h2>
+            <p>Следующее поколение игр. Ваши цели. Друзья и семья. С Windows 11 вы станете еще ближе к тому, что успели полюбить.</p>
+            <button> <a href="https://www.microsoft.com/ru-ru/windows/windows-11?icid=mscom_marcom_H1a_Win11PChlth#pchealthcheck">Проверьте, готов ли ваш ПК </a> </button>
+    </div>
+
+
+    <div class="box">
+        <div id="card_1">
+        <img src="card1.png" width="300px" height="180px">
+        <h1>Microsoft 365</h1>
+        <p>Приложения и функции, которые помогут вам воплотить идеи в реальность, оставаться в безопасности и сосредоточиться на важных вещах в жизни.</p>
+        <a href="#">Для 1 человека ></a> <a href="#">До 6 человек > </a>
+
+        </div>
+
+        <div id="card_2">
+        <img src="card2.png" width="300px" height="180px">
+        <h1>Microsoft Edge</h1>
+        <p>Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</p>
+        <a href="#">Скачать ></a>
+        </div>
+
+        <div id="card_3">
+        <img src="card3.png" width="300px" height="180px">
+        <h1>Microsoft OneDrive</h1>
+        <p>Сохраняйте свои файлы и фотографии на OneDrive — они будут доступны с любого устройства и где угодно.</p>
+        <a href="#">Подробнее ></a>
+        </div>
+
+        <div id="card_4">
+        <img src="card4.png" width="300px" height="180px">
+        <h1>OneNote</h1>
+        <p>Приведите свои заметки и дела в порядок.</p>
+        <a href="#">Узнать больше ></a>
+        </div>
+    </div>
+
+    <div id="footer"></div>
+
+</body>
+</html>
