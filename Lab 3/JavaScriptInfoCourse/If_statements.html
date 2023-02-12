@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>If statements</title>
+</head>
+<body>
+  <script>
+    //1
+    if ("0") {
+      alert( 'Hello' ); //Yes. Print Hello
+    }
+
+    //2
+
+    let company = prompt('‘What is the “official” name of JavaScript?', '');
+
+    if (company == 'ECMAScript') {
+      alert('Right!');
+    } else {
+      alert('You don’t know? ECMAScript!');
+    }
+
+    //3
+
+    let value = prompt('You number:', 0); //default = 0
+
+    if (value > 0) {
+      alert( 1 );
+    } else if (value < 0) {
+      alert( -1 );
+    } else {
+      alert( 0 );
+    }
+
+    //4
+
+    let result;
+    let a = prompt('You number a:', 0);
+    let b = prompt('You  b:', 0);
+
+    if (a + b < 4) {
+      result = 'Below';
+    } else {
+      result = 'Over';
+    }
+
+    let result2;
+    result2 = (a + b < 4) ? ('Below') : ('Over');
+    alert(result2)
+
+    //5
+
+    let message;
+    if (login == 'Employee') {
+      message = 'Hello';
+    } else if (login == 'Director') {
+      message = 'Greetings';
+    } else if (login == '') {
+      message = 'No login';
+    } else {
+      message = '';
+    }
+
+
+    let message2;
+    message2 = (login == 'Employee') ? ('Hello') : (login == 'Director') ? 'Greetings' :  (login == '') ? 'No login' : '';
+  </script>
+</body>
+</html>

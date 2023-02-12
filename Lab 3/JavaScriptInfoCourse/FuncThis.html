@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This</title>
+</head>
+<body>
+  <script>
+    //1
+    //before
+    function makeUser() {
+      return {
+        name: "John",
+        ref: this
+      };
+    }
+    let user = makeUser();
+    alert( user.ref.name ); // What's the result?
+
+    //after
+    function makeUser() {
+      return {
+        name: "John",
+        ref() {
+          return this;
+        }
+      };
+    }
+    let user = makeUser();
+    alert( user.ref().name ); // John
+
+    //2
+    let calculator = {
+      sum() {
+        return this.a + this.b;
+      },
+      mul() {
+        return this.a * this.b;
+      },
+      read() {
+        this.a = +prompt('a?', 0);
+        this.b = +prompt('b?', 0);
+      }
+    };
+    calculator.read();
+    alert( calculator.sum() );
+    alert( calculator.mul() );
+
+
+    //3
+    let ladder = {
+      step: 0,
+      up() {
+        this.step++;
+        return this;
+      },
+      down() {
+        this.step--;
+        return this;
+      },
+      showStep() {
+        alert( this.step );
+        return this;
+      }
+    };
+    ladder
+            .up()
+            .up()
+            .down()
+            .showStep() // 1
+            .down()
+            .showStep(); // 0
+  </script>
+</body>
+</html>

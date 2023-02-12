@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arrow</title>
+</head>
+<body>
+  <script>
+    //1 before
+    function ask(question, yes, no) {
+      if (confirm(question)) yes();
+      else no();
+    }
+    ask(
+            "Do you agree?",
+            function() { alert("You agreed."); },
+            function() { alert("You canceled the execution."); }
+    );
+
+    //after
+    ask(
+            "Do you agree?",
+            () => alert("You agreed."),
+            () => alert("You canceled the execution.")
+    );
+  </script>
+</body>
+</html>
