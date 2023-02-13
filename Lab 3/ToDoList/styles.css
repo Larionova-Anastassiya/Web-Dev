@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+/* Resetting the document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+    background: black;
+    padding: 10px 40px;
+    color: white;
+    text-align: left;
+}
+
+#todo{
+    background: white;
+    padding: 130px 40px;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 15px;;
+}
+
+input {
+    width: 45%;
+    margin-right: 0;
+    padding: 10px;
+    border: lightgray inset;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    -webkit-box-shadow: 0px 5px 22px 4px rgba(34, 60, 80, 0.11);
+    -moz-box-shadow: 0px 5px 22px 4px rgba(34, 60, 80, 0.11);
+    box-shadow: 0px 5px 22px 4px rgba(34, 60, 80, 0.11);
+}
+
+.addBtn {
+    width: 25%;
+    padding: 10px;
+    margin-left:40px;
+    background: blue;
+    color:white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.addBtn:hover {
+    background-color: darkblue;
+    color: #FFF;
+}
+
+/* Style the list items */
+ul li {
+    cursor: pointer;
+    position: relative;
+    width: 1300px;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 14px;
+    transition: 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /*center: */
+    display: table;
+    margin: auto;
+
+
+
+
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+    background: #b2bec3;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+    background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+    content: "";
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+/* Style the trash button */
+.far {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    color: red;
+}
+
+.far:hover {
+    background-color: tomato;
+    color: white;
+}
