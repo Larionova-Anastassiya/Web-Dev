@@ -1,0 +1,96 @@
+h1{
+  font-family: 'Arial', sans-serif;
+
+  background-color: black;
+  color: white;
+
+  margin: 0px;
+  padding: 5px;
+
+}
+
+h2 {
+  color: white;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#todo{
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+input{
+  width: 45%;
+  margin-right: 0;
+  padding: 10px;
+  border: lightgray inset;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  -webkit-box-shadow: 0px 5px 22px 4px rgba(34, 60, 80, 0.11);
+  -moz-box-shadow: 0px 5px 22px 4px rgba(34, 60, 80, 0.11);
+  box-shadow: 0px 5px 22px 4px rgba(34, 60, 80, 0.11);
+}
+
+#add{
+  width: 60px;
+  padding: 5px;
+  margin-left: 30px;
+  background: blue;
+  color:white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+#add:hover {
+  background-color: darkblue;
+}
+
+
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  width: 1000px;
+  padding: 5px 5px 5px 40px;
+  list-style-type: none;
+  background: lightblue;
+  border-radius: 15px;
+  font-size: 14px;
+  transition: 0.2s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  /*center: */
+  display: table;
+  margin: auto;
+
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+#remove{
+  cursor: pointer;
+  color: red;
+  background-color: lightblue;
+  margin-right: 50px;
+  float: right;
+  border: none;
+}
+#remove:hover {
+  background-color: red;
+  color: white;
+}
+
+

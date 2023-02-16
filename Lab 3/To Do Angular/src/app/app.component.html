@@ -1,0 +1,25 @@
+<h1> To Do List </h1>
+
+
+<h2> To Do List</h2>
+
+
+
+<div id="todo">
+  <label>Your task: </label>
+  <input id="textDisplay" type="text" [(ngModel)]="display">
+  <button id="add" (click)="addItem()">Add</button>
+</div>
+
+
+
+
+
+<ul>
+  <li *ngFor="let item of items; let i = index;">
+    <p>
+      {{item}}
+      <button id="remove" (click)="removeItem(i)">Delete</button>
+    </p>
+  </li>
+</ul>
