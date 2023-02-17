@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  /*background-color: #121517; */
+  background-image: url("/assets/background2.jpg");
+  background-repeat: repeat-y;
+}
+
+.shape{
+  background-color: white;
+  height:1px;
+  width: 100%;
+}
+
+

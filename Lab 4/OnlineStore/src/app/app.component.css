@@ -1,0 +1,18 @@
+h1{
+  color: #945e45;
+  font-size: 25px;
+}
+#header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  padding: 20px;
+}
+
+ol li{
+  color: white;
+  display: inline;
+  margin: 53px;
+}

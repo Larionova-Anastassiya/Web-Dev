@@ -1,0 +1,26 @@
+<h2>Products</h2>
+
+<div class="shape"></div>
+
+<div id="products" *ngFor="let product of products; let i = index">
+    <a id="title" [title]="product.name">
+      {{ product.name }}
+    </a>
+  <div id="images">
+    <img class="image" [src]="product.image">
+  </div>
+
+  <p> Description: {{ product.description }} </p>
+  <p class="important"> Price: {{ product.price}} ₸ </p>
+  <p class="important"> Rating: {{product.rating}}</p>
+
+  <button id="more" (click)="links(i)"> Read More </button>
+
+  <div id="shares">
+    <a href="https://web.whatsapp.com/"> <button id="whatsApp"></button> </a>
+    <a href="https://web.telegram.org/"> <button id="telegram"></button> </a>
+  </div>
+
+  <div class="shape"></div>
+
+</div>

@@ -1,0 +1,92 @@
+h2{
+  color: #906854;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.important{
+  color: #daa283;
+}
+
+#title{
+  background: linear-gradient(45deg, #854930 33%, #c37e5e 66%, #efc3a4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin:auto;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 90px;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #efc3a4;
+}
+
+#more{
+  background-color: #daa283;
+  font-weight: bold;
+  border-radius: 15px;
+  height: 30px;
+  margin-top: 10px;
+  transition: 0.7s;
+}
+
+#more:hover{
+  background-color: #b97252;
+  border-radius: 5px;
+  transition: 0.7s;
+}
+
+#products{
+  color: white;
+  margin: 0 21em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.image {
+  width: 220px;
+  height: 350px;
+  background-image: url("/assets/backgroundImage.jpg");
+  padding: 10px;
+  border: #280000 double 10px;
+}
+
+#images{
+  align-self: start;
+  justify-self: center;
+  margin: 0 17em;
+}
+
+#shares{
+  margin: -5em 65em 0em 46em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+#whatsApp{
+  background: url("/assets/logo-whatsapp.png") no-repeat;
+  width: 43px;
+  height: 43px;
+  transition: 0.7s;
+}
+#whatsApp:hover{
+  background-image: url("/assets/logo-whatsapp2.png");
+  transition: 0.7s;
+}
+
+#telegram{
+  background: url("/assets/telegram_logo.png") no-repeat;
+  width: 43px;
+  height: 43px;
+  transition: 0.7s;
+}
+#telegram:hover{
+  background-image: url("/assets/telegram_logo2.png");
+  transition: 0.7s;
+}
