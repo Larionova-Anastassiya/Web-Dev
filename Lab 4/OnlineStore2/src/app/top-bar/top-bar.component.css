@@ -1,0 +1,53 @@
+h1{
+  color: #945e45;
+  font-size: 25px;
+
+}
+a :hover{
+  color: rgb(121,64,40);
+}
+a {
+  text-decoration: none;
+}
+
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  padding: 20px;
+}
+ol li{
+  color: white;
+  display: inline;
+  margin: 53px;
+}
+
+.shopping-button{
+  background: linear-gradient(135deg, rgba(222,177,146) 0%,rgba(121,64,40) 100%);
+  mix-blend-mode: lighten;
+  color: white;
+
+  font-weight: bold;
+
+  padding: 5px;
+
+  border: rgb(163,111,84) solid;
+  border-radius: 20px;
+
+  transition: 0.9s;
+}
+
+.shopping-button i.material-icons {
+  color: white;
+  padding: 6px;
+}
+
+.shopping-button:hover{
+  background: linear-gradient(135deg, rgba(152,99,73) 0%,rgba(66,45,42) 100%);
+  border: rgb(121,64,40) solid;
+
+  transition: 0.9s;
+}
