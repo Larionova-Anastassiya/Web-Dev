@@ -35,3 +35,11 @@ h4{
   background-color: rgb(131,75,50);
   transition: 0.5s;
 }
+
+a{
+  color: #daa283;
+  text-decoration: 1px blanchedalmond underline;
+}
+a:hover{
+  color: #854930;
+}

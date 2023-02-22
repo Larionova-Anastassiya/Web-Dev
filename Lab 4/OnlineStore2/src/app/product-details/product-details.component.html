@@ -4,6 +4,7 @@
   <h3>{{ product.name }}</h3>
   <h4>{{ product.price}} ₸</h4>
   <p>{{ product.description }}</p>
+  <a href="{{product.url}}">Product in Kaspi</a>
   <p id="rating"> Rating: {{ product.rating }} ★ </p>
 
   <button id="bt_add" type="button" (click)="addToCart(product)">Buy</button>
