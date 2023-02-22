@@ -4,6 +4,8 @@ export interface Product {
   price: number;
   description: string;
   rating:number;
+
+  url: string;
 }
 
 export const products = [
