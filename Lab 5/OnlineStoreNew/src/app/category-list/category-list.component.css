@@ -1,0 +1,42 @@
+#category{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+h3{
+  padding-top: 40px;
+  margin: 0;
+  color: #945e45;
+  font-size: 25px;
+  font-family: Bahnschrift;
+  text-align: center;
+}
+
+.category_button{
+  background: rgb(255,255,255);
+  background: linear-gradient(75deg, rgba(255,255,255,1) 0%, rgba(226,180,150,1) 48%, rgba(173,122,95,1) 100%);
+  margin: 10px;
+  font-size: 15px;
+
+  border: 2px outset #503a39;
+  border-radius: 40px 39px 0px 40px;
+
+  padding: 5px;
+
+
+  display: inline-block;
+  width: 300px;
+  text-transform: uppercase;
+  text-align: center;
+
+
+}
+
+.current{
+  background: rgb(149,95,69);
+  background: linear-gradient(75deg, rgba(149,95,69,1) 0%, rgba(115,69,50,1) 48%, rgba(41,32,32,1) 100%);
+  -webkit-box-shadow: 5px 5px 7px 1px rgba(249, 228, 195, 0.6);
+  -moz-box-shadow: 5px 5px 7px 1px rgba(249, 228, 195, 0.6);
+  box-shadow: 5px 5px 7px 1px rgba(249, 228, 195, 0.6);
+}

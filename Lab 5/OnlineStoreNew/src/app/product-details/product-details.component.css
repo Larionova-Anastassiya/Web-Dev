@@ -1,0 +1,71 @@
+#products_details{
+  color: white;
+
+  margin: 20px 25em;
+
+  text-align: center;
+  padding-top: 70px;
+
+}
+h3{
+  background: linear-gradient(45deg, #854930 23%, #c37e5e 36%, #efc3a4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 40px;
+}
+h4{
+  color: #daa283;
+  font-size: 25px;
+}
+
+#rating{
+  color: gold;
+}
+
+#bt_add{
+  height: 30px;
+  width: 200px;
+  background-color: rgb(154,101,75);
+  color:white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+#bt_add:hover{
+  background-color: rgb(131,75,50);
+  transition: 0.5s;
+}
+
+a{
+  margin-left: 20px;
+  color: #daa283;
+  text-decoration: 1px blanchedalmond underline;
+}
+a:hover{
+  color: #854930;
+}
+
+
+
+
+
+p{
+  color: white;
+}
+
+#bt_count_like{
+  background-color: #daa283;
+  border-radius: 30px;
+}
+.likes{
+  display: inline; /* Отображать как строчный элемент */
+  margin-right: 10px; /* Отступ слева */
+
+  padding: 5px; /* Поля вокруг текста */
+}
+.image_like{
+  background-color: #daa283;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,12 @@
+#bt_notify{
+  background-color: #854930;
+  color: white;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+
+#bt_notify:hover{
+  background-color: rgb(66,45,42);
+  border-radius: 5px;
+  transition: 0.7s;
+}

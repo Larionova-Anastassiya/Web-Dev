@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "Nespresso Volluto Coffee capsules 10 pcs",
+    "price": 5400,
+    "description": "Type: coffee. Standard of capsules/cups: Nespresso Original. Country of manufacture: Switzerland. Storage conditions: Store in a dry place.",
+    "img" : "/assets/Products/capsules/nespresso-volluto-10-st-101080310-1-Container-transformed.png",
+    "url": "https://kaspi.kz/shop/p/kapsuly-kofe-nespresso-volluto-10-sht-101080310/?c=750000000#!/item",
+    "rating": 5,
+    "count": 0,
+    "category": "capsule"
+  },
+  {
+    "id": 2,
+    "name": "L'or Espresso Caramel Coffee capsules 10 pcs",
+    "price": 3100,
+    "description": "Type: coffee. Standard of capsules/cups: Nespresso Original. Country of manufacture: France.",
+    "img" : "/assets/Products/capsules/l-or-espresso-caramel-106884641-1.jpg",
+    "url": "https://kaspi.kz/shop/p/kapsuly-kofe-l-or-espresso-caramel-10-sht-106884641/?c=750000000#!/item",
+    "rating": 4.5,
+    "count": 0,
+    "category": "capsule"
+  },
+  {
+    "id": 3,
+    "name": "Nespresso Coffee Capsules Starbucks Caffe Verona 10 pcs",
+    "price": 4500,
+    "description": "Type: coffee. Standard of capsules/cups: Nespresso Original. Country of manufacture: Switzerland. Storage conditions: Store in a dry place.",
+    "img" : "/assets/Products/capsules/kapsuly-kofe-nespresso-starbucks-caffe-verona-10-sht-101080047-1.png",
+    "url": "https://kaspi.kz/shop/p/kapsuly-kofe-nespresso-starbucks-caffe-verona-10-sht-101080047/?c=750000000#!/item",
+    "rating": 5,
+    "count": 0,
+    "category": "capsule"
+  },
+  {
+    "id": 4,
+    "name": "L'or Espresso Onyx Coffee Capsules 10 pcs",
+    "price": 3100,
+    "description": "Type: coffee. Standard of capsules/cups: Nespresso Original. Country of manufacture: France.",
+    "img" : "/assets/Products/capsules/l-or-espresso-onyx-106884639-1.jpg",
+    "url": "https://kaspi.kz/shop/p/kapsuly-kofe-l-or-espresso-onyx-10-sht-106884639/?c=750000000#!/item",
+    "rating": 5,
+    "count": 0,
+    "category": "capsule"
+  },
+  {
+    "id": 5,
+    "name": "Lavazza Blue Ricco Coffee capsules 100 pcs",
+    "price": 18000,
+    "description": "Type: coffee. Standard capsules / chalds: Lavazza. Country of manufacture: Italy.",
+    "img" : "/assets/Products/capsules/lavazza-blue-ricco-100-st-102400979-1-Container.png",
+    "url": "https://kaspi.kz/shop/p/kapsuly-kofe-lavazza-blue-ricco-100-sht-102400979/?c=750000000#!/item",
+    "rating": 5,
+    "count": 0,
+    "category": "capsule"
+  }
+]

@@ -1,0 +1,25 @@
+<h2>Product Details</h2>
+
+<div id="products_details" *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <h4>{{ product.price}} ₸</h4>
+  <p>{{ product.description }}</p>
+
+
+
+
+
+  <p class="likes">{{product.likes}}</p>
+  <img class="image_like" src="/assets/like.png">
+  <button id="bt_count_like" type="button" (click)="giveLike(product)"> Like </button>
+
+
+
+  <a href="{{product.url}}">Product in Kaspi</a>
+  <p id="rating"> Rating: {{ product.rating }} ★ </p>
+
+  <button id="bt_add" type="button" (click)="addToCart(product)">Buy</button>
+</div>
+
+
+

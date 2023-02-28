@@ -1,0 +1,18 @@
+h2{
+  color: #906854;
+  font-weight: bold;
+
+  margin-top: 140px;
+  margin-bottom: 30px;
+  text-align: center;
+
+  font-size: 30px;
+}
+
+body{
+  /*background-color: #121517; */
+  /*background-image: url("/assets/background2.jpg");*/
+  background-image: url("/assets/background2.jpg");
+  background-repeat: repeat-y;
+}
+

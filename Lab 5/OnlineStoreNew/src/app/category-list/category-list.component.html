@@ -1,0 +1,11 @@
+<h2>Products</h2>
+
+<h3>Categories: </h3>
+
+<div id="category" *ngFor=" let category of categories">
+  <button [class.current]="category == currentCategory" class="category_button" (click)="changeCategory(category)">{{category.name}}</button>
+</div>
+
+
+<app-product-list [category]="currentCategory">
+</app-product-list>
