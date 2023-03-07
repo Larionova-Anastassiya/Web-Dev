@@ -1,0 +1,26 @@
+<h1>Album list</h1>
+
+<fieldset id="fields">
+  <h2>Create new:</h2>
+  <p>Title:</p>
+  <input type="text" [(ngModel)]="newAlbum.title"><br/>
+  <p>Id:</p>
+  <input type="number" [(ngModel)]="newAlbum.userId"><br/>
+  <button class="btn" (click)="addAlbum()">Add post</button>
+</fieldset>
+
+<ul>
+  <li *ngFor="let album of albums">
+    <a routerLink="/albums/{{album.id}}">
+      {{album.id}}) {{album.title}}
+    </a>
+
+
+    <button class="btn" *ngIf="changeAlbum !== album" (click)="updateAlbum(album)">Change</button>
+    <input *ngIf="changeAlbum === album" type="text" [(ngModel)]="album.title">
+    <button class="btn" *ngIf="changeAlbum === album" (click)="updateAlbum(newAlbum)">Ok</button>
+    <button class="btn" (click)="deleteAlbum(album)">Delete</button>
+    <hr>
+  </li>
+</ul>
+

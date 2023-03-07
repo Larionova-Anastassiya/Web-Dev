@@ -1,0 +1,58 @@
+
+H2 {
+  overflow: hidden;
+  text-shadow:
+    0 0 black,
+    0 0 green,
+    0 0 blue;
+  color: transparent;
+  transition: all 1s;
+}
+
+H2:hover {
+  text-shadow:
+    -400px 0 tomato,
+    400px 0 yellowgreen,
+    0 0 skyblue;
+}
+
+
+
+#fields {
+  position: relative;
+  margin: 100px auto 50px;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  background: white;
+}
+
+#fields:before, #fields:after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094,
+  #0000ff, #00ff00,#ffff00, #ff0000);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+#fields:after {
+  filter: blur(50px);
+}

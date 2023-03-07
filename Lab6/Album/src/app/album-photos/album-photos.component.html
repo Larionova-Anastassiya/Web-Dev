@@ -1,0 +1,10 @@
+<div id="photos">
+<h1>All Photos page</h1>
+<button class="btn" routerLink="..">Return back</button>
+<div *ngFor="let photo of photos">
+  <p>{{photo.id}}) {{photo.title}}</p>
+  <img [src]="photo.thumbnailUrl" alt="icon">
+  <br>
+  <img [src]="photo.url" alt="photo">
+</div>
+</div>

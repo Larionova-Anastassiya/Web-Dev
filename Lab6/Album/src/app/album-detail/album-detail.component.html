@@ -1,0 +1,18 @@
+<div id="detail">
+
+<h2>Album detail #{{album.id}}</h2>
+
+<h4>{{album.title}}</h4>
+
+<p>{{album.userId}}</p>
+
+<button class="btn" *ngIf="changeAlbum !== album" (click)="updateAlbum(album)">Change</button>
+<input *ngIf="changeAlbum === album" type="text" [(ngModel)]="album.title">
+<button class="btn" *ngIf="changeAlbum === album" (click)="updateAlbum(newAlbum)">Ok</button>
+
+
+
+<a routerLink="/albums/{{album.id}}/photos">Photos</a>
+
+<button class="btn" routerLink="/albums">Return back</button>
+</div>

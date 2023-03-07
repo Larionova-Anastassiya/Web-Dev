@@ -1,0 +1,89 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url("/assets/background.jpg");
+  margin: 0;
+  backdrop-filter: blur(2px);
+}
+
+H1 {
+  text-align: center;
+  font-size: 70px;
+  text-shadow:
+    1px 1px 0 hsl(20,100%,50%),
+    2px 2px 0 hsl(20,100%,50%),
+    3px 3px 0 hsl(35,100%,50%),
+    4px 4px 0 hsl(35,100%,50%),
+    5px 5px 0 hsl(45,100%,50%),
+    6px 6px 0 hsl(45,100%,55%),
+    7px 7px 0 hsl(55,100%,60%),
+    8px 8px 0 hsl(55,100%,65%);
+  color: hsl(0,100%,40%);
+  transition: all 1s;
+}
+
+H1:hover {
+  text-shadow:
+    1px -1px 0 hsl(290,100%,40%),
+    2px -2px 0 hsl(290,100%,40%),
+    3px -3px 0 hsl(280,100%,60%),
+    4px -4px 0 hsl(280,100%,60%),
+    5px -5px 0 hsl(270,100%,75%),
+    6px -6px 0 hsl(270,100%,80%),
+    7px -7px 0 hsl(260,100%,85%),
+    8px -8px 0 hsl(260,100%,90%);
+  color: hsl(300,100%,30%);
+}
+
+
+.btn {
+  margin: 20px;
+  text-decoration: none;
+  border: 1px solid rgb(232,123,118);
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(240,206,193);
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 25px 10px rgb(237,178,170);
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgb(237,65,42),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
+
+
+p, h2, h4{
+  color: white;
+
+}
+
+
+ul li{
+  text-align: center;
+  list-style: none;
+}
+a{
+  font-size: 20px;
+  color: rgb(244,229,208);
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: #eaa594 underline;
+}
