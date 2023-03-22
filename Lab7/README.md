@@ -1,4 +1,4 @@
-Task 1 &nbsp;
+Task 1 <br />
 https://informatics.msk.ru/
 Ввод-вывод, оператор присваивания (А-E)
 Условный оператор (А-Е)
@@ -11,8 +11,8 @@ https://www.hackerrank.com/domains/python
 any 10 problems
 https://codingbat.com/python
 all section in Python tab (from Warmup-1 till List-2)
-&nbsp;
-Task 2 &nbsp;
+<br />
+Task 2 <br />
 Install virtualenv
 Practice creating new environments
 Create empty Django project 
