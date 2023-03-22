@@ -1,5 +1,5 @@
 Task 1 <br />
-https://informatics.msk.ru/
+https://informatics.msk.ru/ <br />
 Ввод-вывод, оператор присваивания (А-E)
 Условный оператор (А-Е)
 Циклы
@@ -7,11 +7,22 @@ https://informatics.msk.ru/
 Цикл while (А-E)
 Массивы (А-G)
 Функции (А-С)
-https://www.hackerrank.com/domains/python
-any 10 problems
-https://codingbat.com/python
-all section in Python tab (from Warmup-1 till List-2)
+
 <br />
+<br />
+
+https://www.hackerrank.com/domains/python <br />
+any 10 problems
+
+<br />
+<br />
+
+https://codingbat.com/python <br />
+all section in Python tab (from Warmup-1 till List-2)
+
+<br />
+<br />
+
 Task 2 <br />
 Install virtualenv
 Practice creating new environments
