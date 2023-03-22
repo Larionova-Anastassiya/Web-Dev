@@ -9,13 +9,13 @@ https://informatics.msk.ru/ <br />
 Функции (А-С) <br />
 
 <br />
-<br />
+
 
 https://www.hackerrank.com/domains/python <br />
 any 10 problems <br />
 
 <br />
-<br />
+
 
 https://codingbat.com/python <br />
 all section in Python tab (from Warmup-1 till List-2) <br />
