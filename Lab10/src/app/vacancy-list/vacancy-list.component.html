@@ -1,0 +1,6 @@
+<ul>
+  <li *ngIf="vacancies.length == 0">No items</li>
+  <li *ngFor="let vacancy of vacancies">
+    {{vacancy.id}} - {{vacancy.name}}: {{vacancy.salary}}, {{vacancy.description}}
+  </li>
+</ul>

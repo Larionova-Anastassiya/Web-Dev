@@ -1,0 +1,18 @@
+<h1>All Companies</h1>
+
+<ul>
+  <li *ngFor="let company of companies">
+    <a routerLink="/{{company.id}}">{{company.id}} - {{company.name}}:{{company.description}}, {{company.city}}, {{company.address}}</a>
+  </li>
+</ul>
+
+<h1>All Vacancies</h1>
+
+<ul>
+  <li *ngFor="let vacancy of vacancies">
+    {{vacancy.id}} - {{vacancy.name}}:       {{vacancy.description}},     {{vacancy.salary}},       {{vacancy.company}}
+  </li>
+</ul>
+
+
+<router-outlet></router-outlet>
